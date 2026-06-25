@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+    <style>
+        header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:crimson;
+    color:white;
+    padding:20px 50px;
+}
+
+nav a{
+    margin-left:20px;
+    color:white;
+}
+        .active{
+            text-decoration: underline;
+        }
+        section{
+            font-family:Geneva;
+            font-size: 50px;
+            background-color: blanchedalmond;
+            text-align: center;
+            padding: 60px 10px;
+        }
+        p{
+            font-family:Arial;
+            font-size: x-large;
+        }
+        article{
+            font-family: Arial;
+            font-size: xx-large;
+        }
+        .heading{
+    display:flex;
+    align-items:center;
+            }
+            hr{
+    flex:1;
+    margin-left:10px;
+}
+span{
+    font-family: Geneva;
+    font-size:40px;
+}
+.products{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+.product-box{
+    width:200px;
+    border:1px solid black;
+    text-align:center;
+    border-radius:5px;
+    padding: 40px 30px;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+footer{
+   border:2px solid black; 
+            padding: 20px 10px;
+            color: aliceblue;
+            font-family: Times New Roman;
+            font-size: small;
+            text-align: center;
+    background-color: crimson;  
+}
+       </style>
+        </head>
+        <body>
+            <div>
+            <header> <h2>Fashion Hub</h2>
+            <nav>
+                <a class="active">Home</a>
+                <a>Men</a>
+                <a>Women</a>
+                <a>Kids</a>
+                <a>Contacts</a>
+            </nav></header>
+            </div>
+            <div>
+                <section>
+                    New Fashion Collection
+                    <p>Upgrade your style today</p>
+                </section>
+            </div>
+        <div class="heading">
+    <span>Products</span>
+    <hr>
+</div>
+<div class="Products">
+    <div class="product-box">
+    <img src="c:\Users\Admin\Downloads\shirt.webp" alt="Shirt" width="190" height="285">
+    <h3>Casual Shirt</h3>
+    <p>₹999</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-box">
+    <img src="c:\Users\Admin\Downloads\dress.webp" alt="Dress" width="190">
+    <h3>Dress</h3>
+    <p>₹1299</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-box">
+    <img src="c:\Users\Admin\Downloads\jacket.jfif" alt="Jacket" width="190">
+    <h3>Jacket</h3>
+    <p>₹1799</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-box">
+    <img src="c:\Users\Admin\Downloads\slipper.jfif" alt="Slipper" width="190" height="285">
+    <h3>Slipper</h3>
+    <p>₹670</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-box">
+    <img src="c:\Users\Admin\Downloads\shoes.jfif" alt="Shoes" width="200" height="285">
+    <h3>Shoes</h3>
+    <p>₹3400</p>
+    <button>Buy Now</button>
+</div>
+</div>
+<div>
+    <footer>
+        <p>&copy; 2026 Fashion Hub | Contact : fashionhub@gmail.com</p>
+    </footer>
+</div>
+        </body>
+        </html>
