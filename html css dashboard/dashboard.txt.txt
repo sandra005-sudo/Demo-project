@@ -83,7 +83,7 @@ footer{
             </div>
             <div>
                 <section>
-                    New Fashion Collection
+                     Fashion Collection Store
                     <p>Upgrade your style today</p>
                 </section>
             </div>
