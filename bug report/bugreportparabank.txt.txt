@@ -1,0 +1,52 @@
+BUG ID	MODULE NAME	BUG DESCRIPTION	STEPS TO REPRODUCE	PRIORITY	SEVERITY	REPORTED BY	REPORTED DATE	STATUS
+BG_001	Home page	Solutions icon on Home Page is not functioning	"1.Launch ParaBank application.
+2.Navigate to the Home Page.
+3.Locate the Solutions icon/menu.
+4.Click on the Solutions icon."	Medium	Medium	Sandra	07-06-2026	New
+BG_002	Home page	"""Available Bookstore SOAP Services"" link is not
+ working"	"1.Launch ParaBank application.
+2.Navigate to the Home Page.
+3.Locate the ""Available Bookstore SOAP Services"" link.
+4.Click the link."	Medium	Medium	Sandra	07-06-2026	New
+BG_003	Home page	"""ATM Services"" and ""Online Services"" links 
+are not navigating to their respective pages"	"1.Launch ParaBank application.
+2.Navigate to the Home Page.
+3.Click the ATM Services link.
+4.Observe the result.
+5.Click the Online Services link.
+6.Observe the result."	Medium	Medium	Sandra	07-06-2026	New
+BG_004	Account Activity	"Account Activity search returns ""No transactions found""
+ despite existing transactions."	"1.Login to ParaBank.
+2.Open an account with existing transactions.
+3.Go to Account Activity.
+4.Select a month and Debit/Credit transaction type.
+5.Click Go/Search."	Medium	Medium	Sandra	07-06-2026	New
+BG_005	Transfer Funds	System allows transfer of zero amount	"1.Login to ParaBank.
+2.Navigate to Transfer Funds.
+3.Enter ""0"" in the Amount field.
+4.Select From Account and To Account.
+5.Click Transfer."	Medium	Medium	Sandra	07-06-2026	New
+BG_006	Transfer Funds	System allows transfer of negative amount	"1.Login to ParaBank.
+2.Navigate to Transfer Funds.
+3.Enter a negative amount (e.g., -100).
+4.Select From Account and To Account.
+5.Click Transfer."	High	High	Sandra	07-06-2026	New
+BG_007	Bill Pay	" Bill Payment accepts invalid amount and processes
+ payment"	"1.Login to ParaBank.
+2.Navigate to Bill Pay.
+3.Enter valid payee details.
+4.Enter an invalid amount.
+5.Click Send Payment."	High	High	Sandra	07-06-2026	New
+BG_008	Find Transactions	Find Transactions feature is not functioning	"1.Login to ParaBank.
+2.Navigate to Find Transactions.
+3.Enter valid transaction search criteria (Date/Amount).
+4.Click Find Transactions."	High	High	Sandra	07-06-2026	New
+BG_009	Login	Internal error occurs after multiple login attempts	"1. Login with valid username and password.
+ 2. Logout/Login multiple times or use the application for 
+some time. 
+3. Attempt to login again."	High	High	Sandra	07-06-2026	New
+BG_010	Transfer Funds	System allows transfer between the same account	"1. Login 
+2. Open Transfer Funds 
+3. Select the same account in From Account and To Account 
+4. Enter amount 
+5. Click Transfer"	Medium	Medium	Sandra	08-06-2026	New
